@@ -1,0 +1,46 @@
+h1 {
+	color: black;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 50px;
+}
+
+body, p {
+	color: black;
+	background-color: lightblue;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+}
+
+table {
+	color: black;
+	background-color: lightblue;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	border: 2px black;
+	width: 60%;
+	height: 100px;
+}
+
+caption {
+	color: black;
+	font-family: Comic Sans MS;
+	font-size: 25px;
+}
+
+tr, td {
+	color: black;
+	background-color: white;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	border: 1px solid black;
+}
+
+th {
+	color: black;
+	background-color: red;
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	border: 2px black;
+}
