@@ -15,7 +15,6 @@ body, p {
 table {
 	color: black;
 	background-color: lightblue;
-	text-align: center;
 	font-family: Comic Sans MS;
 	font-size: 15px;
 	width: 60%;
@@ -31,10 +30,11 @@ caption {
 td {
 	color: black;
 	background-color: white;
+	border: 1px solid black;
 	font-family: Comic Sans MS;
 	font-size: 15px;
-	border: 1px solid black;
 	text-align: left;
+	padding: 10px;
 }
 
 th {
@@ -43,4 +43,5 @@ th {
 	font-family: Comic Sans MS;
 	font-size: 18px;
 	border: 2px solid black;
+	text-align: center;
 }
