@@ -7,14 +7,14 @@ h1 {
 
 body, p {
 	color: black;
-	background-color: lightblue;
+	background-image: url("http://www.commentnation.com/backgrounds/images/kindergarten_notebook_paper_seamless_pattern.jpg");
 	font-family: Comic Sans MS;
 	font-size: 20px;
 }
 
 table {
 	color: black;
-	background-color: lightblue;
+	background-color: rgb(222, 222, 222);
 	font-family: Comic Sans MS;
 	font-size: 15px;
 	width: 60%;
