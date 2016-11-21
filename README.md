@@ -1,5 +1,5 @@
 # 4E-Homework-Page
 
-For Phillip Henri's website.
+For Phillip Henri's 4E Homework website.
 
-Nothing special here, yet.
+The website is practically useless, as much more is to be completed.

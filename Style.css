@@ -1,47 +1,49 @@
+/*Styles header at top of page*/
 h1 {
 	color: black;
 	text-align: center;
 	font-family: Comic Sans MS;
 	font-size: 50px;
 }
-
+/*Styles text in body*/
 body, p {
 	color: black;
-	background-image: url("http://www.commentnation.com/backgrounds/images/kindergarten_notebook_paper_seamless_pattern.jpg");
+	background-color: lightblue;
 	font-family: Comic Sans MS;
 	font-size: 20px;
 }
-
-table {
-	color: black;
-	background-color: rgb(222, 222, 222);
-	font-family: Comic Sans MS;
-	font-size: 15px;
+/*CALENDAR STYLING*/
+	/*Styles calendar*/
+	table {
+		color: black;
+		background-color: rgb(222, 222, 222);
+		font-family: Comic Sans MS;
+		font-size: 15px;
 	width: 60%;
-	height: 100px;
-}
-
-caption {
-	color: black;
-	font-family: Comic Sans MS;
-	font-size: 25px;
-}
-
-td {
-	color: black;
-	background-color: white;
-	border: 1px solid black;
-	font-family: Comic Sans MS;
-	font-size: 15px;
-	text-align: left;
-	padding: 10px;
-}
-
-th {
-	color: black;
-	background-color: red;
-	font-family: Comic Sans MS;
-	font-size: 18px;
-	border: 2px solid black;
-	text-align: center;
-}
+		height: 100px;
+	}
+	/*Styles calendar title*/
+	caption {
+		color: black;
+		font-family: Comic Sans MS;
+		font-size: 25px;
+	}
+	/*Styles calendar days*/
+	td {
+		color: black;
+		background-color: white;
+		border: 1px solid black;
+		font-family: Comic Sans MS;
+		font-size: 15px;
+		text-align: left;
+		padding: 10px;
+	}
+	/*Styles calendar days of week*/
+	th {
+		color: black;
+		background-color: red;
+		font-family: Comic Sans MS;
+		font-size: 18px;
+		border: 2px solid black;
+		text-align: center;
+	}
