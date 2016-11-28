@@ -6,7 +6,7 @@ h1 {
 	font-size: 50px;
 }
 /*Styles text in body*/
-body, p {
+p {
 	color: black;
 	background-color: lightblue;
 	font-family: Comic Sans MS;
@@ -46,4 +46,20 @@ body, p {
 		font-size: 18px;
 		border: 2px solid black;
 		text-align: center;
+	}
+/*DROPDOWN MENU STYLING*/
+	.alpha {
+		position: relative;
+		display: inline-block;
+}
+
+	.bravo {
+		display: none;
+		position: absolute;
+		background-color: rgb(100,120,150);
+		min-width: 160px;
+	}
+
+	.alpha:hover .bravo {
+		display: block;
 	}
