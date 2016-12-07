@@ -5,27 +5,27 @@ h1 {
 	font-family: Comic Sans MS;
 	font-size: 50px;
 }
+/*DIV TAG COLOURS*/
+	/*Blue background*/
+	.blue{
+		background-color: rgb(80,180,250);
+		max-width: 80%;
+		text-align: left;
+	}
 
-/*For div tags with blue background*/
-.blue{
-	background-color: rgb(100,200,250);
-	max-width: 80%;
-	text-align: left;
-}
+	/*Orange background*/
+	.orange{
+		background-color: rgb(250,140,40);
+		max-width: 80%;
+		text-align: left;
+	}
 
-/*For div tags with blue background*/
-.orange{
-	background-color: rgb(250,240,50);
-	max-width: 80%;
-	text-align: left;
-}
-
-/*For div tags with blue background*/
-.green{
-	background-color: rgb(80,220,120);
-	max-width: 80%;
-	text-align: left;
-}
+	/*Green background*/
+	.green{
+		background-color: rgb(60,225,100);
+		max-width: 80%;
+		text-align: left;
+	}
 
 /*Styles text in body*/
 body {
@@ -36,11 +36,7 @@ p {
 	font-family: Comic Sans MS;
 	font-size: 20px;
 }
-div {
-	max-width: 80%;
-	background-color: rgb(100,220,240);
-	text-align: left;
-}
+
 /*CALENDAR STYLING*/
 	/*Styles calendar*/
 	table {
@@ -48,7 +44,8 @@ div {
 		background-color: rgb(222, 222, 222);
 		font-family: Comic Sans MS;
 		font-size: 15px;
-	width: 60%;
+		width: 60%;
+		border: 3px solid black;
 		height: 100px;
 	}
 	/*Styles calendar title*/
