@@ -1,20 +1,38 @@
 /*DIV TAG COLOURS*/
 
+/*Red background*/
+.red{
+	background-color: rgb(240,80,60);
+	max-width: 96%;
+	text-align: left;
+}
+/*Orange background*/
+.orange{
+	background-color: rgb(250,160,40);
+	max-width: 96%;
+	text-align: left;
+}
+/*Yellow background*/
+.yellow{
+	background-color: rgb(225,220,20);
+	max-width: 96%;
+	text-align: left;
+}
+/*Green background*/
+.green{
+	background-color: rgb(120,220,100);
+	max-width: 96%;
+	text-align: left;
+}
 /*Blue background*/
 .blue{
 	background-color: rgb(110,200,250);
 	max-width: 96%;
 	text-align: left;
 }
-/*Orange background*/
-.orange{
-	background-color: rgb(240,160,60);
-	max-width: 96%;
-	text-align: left;
-}
-/*Green background*/
-.green{
-	background-color: rgb(100,220,100);
+/*Purple background*/
+.purple{
+	background-color: rgb(160,80,155);
 	max-width: 96%;
 	text-align: left;
 }
