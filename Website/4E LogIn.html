@@ -5,6 +5,12 @@
 <title>4E HW Login</title>
 <link rel="stylesheet" href="Stylesheets/MainStyle.css">
 
+<script>
+function change() {
+    document.getElementById("demo").innerHTML = "xd";
+}
+</script>
+
 </head>
 
 <body>
@@ -19,7 +25,8 @@
 <form action="file:///H:/Documents/GitHub/4E-Homework-Page/Website/4E%20Homepage.html">
 	Username<br><input type="text" name="Username"><br><br><!--Enter username-->
 	Password<br><input type="text" name="Password"><br><hr><!--Enter password-->
-	<input type="submit" value="Login">
+	<button type="button" onclick="change()">Submit</button>
+	<p id="demo"> </p>
 </form>
 
 <p><strong><center><mark>*W.I.P.*</mark></center></strong></p>
