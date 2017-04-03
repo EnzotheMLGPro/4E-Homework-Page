@@ -7,20 +7,45 @@
 
 <script>
 function login(){
-	var user = "abc";
-	var pass = "123";
-	var username = prompt("Username:");
-	if (username === user){
+/*Profile list*/
+	var profile1 = ["abc", "123"];
+	var profile2 = ["Phillip", "Henri"];
+	var profile3 = ["john", "doe"];
+
+var username = prompt("Username:"); /*Ask for username*/
+/*Profile1 check*/
+	if (username === profile1[0]){ /*Check for username match*/
+		var password = prompt("Password:"); /*Ask for password*/
+		if (password === profile1[1]) { /*Check for password match*/
+			window.location = "file:///H:/Documents/GitHub/4E-Homework-Page/Website/4E%20Homepage.html" /*Redirects to homepage*/
+		}
+		else{
+			confirm("Incorrect password"); /*If password doesn't match*/
+		}
+	}
+/*Profile2 check*/
+	else if (username === profile2[0]){
 		var password = prompt("Password:");
-		if (password === pass) {
+		if (password === profile2[1]) {
 			window.location = "file:///H:/Documents/GitHub/4E-Homework-Page/Website/4E%20Homepage.html"
 		}
 		else{
 			confirm("Incorrect password");
 		}
 	}
+/*Profile3 check*/
+	else if (username === profile3[0]){
+		var password = prompt("Password:");
+		if (password === profile3[1]) {
+			window.location = "file:///H:/Documents/GitHub/4E-Homework-Page/Website/4E%20Homepage.html"
+		}
+		else{
+			confirm("Incorrect password");
+		}
+	}
+/*If username doesn't match*/
 	else{
-		confirm("Incorrect userame");
+		confirm("Incorrect password");
 	}
 }
 </script>
@@ -35,6 +60,7 @@ function login(){
 <p>Welcome to the 4E Homework webpage! This is an ongoing project for Phillip Henri's computer programming class, so don't expect everything to be working perfectly, or to be entirely finished.</p>
 
 <hr>
+
 <button type="button" onclick="login()">Login</button>
 
 <p><strong><center><mark>*W.I.P.*</mark></center></strong></p>
